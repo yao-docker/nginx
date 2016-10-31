@@ -2,3 +2,5 @@
 !.gitignore
 
 !nginx/
+!services.d/
+!cont-init.d/
