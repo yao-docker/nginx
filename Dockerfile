@@ -7,5 +7,3 @@ VOLUME /mnt/log
 RUN BUILD_DATE=20170828 \
  && apk add --no-cache nginx
 ADD share/docker/ /
-
-RUN rm -r /var/www/localhost/htdocs /etc/nginx/default.d /etc/nginx/fastcgi.conf
