@@ -1,9 +1,9 @@
-snakevil/nginx
+yao/docker-nginx
 ===
 
-基于 [snakevil/base][base] 构建地 [nginx][] 基础镜像。
+基于 [yao/docker-base][base] 构建地 [nginx][] 基础镜像。
 
-[base]: https://github.com/snakevil-docker/base
+[base]: https://github.com/yao-docker/base
 [nginx]: http://nginx.org
 
 EXPOSE
@@ -28,4 +28,4 @@ VOLUME
 
 * `/mnt/_`
 
-    实现自 [snakevil/base](https://github.com/snakevil-docker/base#volume)。
+    实现自 [yao-docker/base](https://github.com/yao-docker/base#volume)。

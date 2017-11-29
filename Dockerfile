@@ -1,5 +1,6 @@
-FROM registry.cn-hangzhou.aliyuncs.com/snakevil/base
-MAINTAINER Snakevil Zen <zsnakevil@gmail.com>
+FROM registry.cn-hangzhou.aliyuncs.com/yao/docker-base
+
+MAINTAINER Yao <yaogaoyu@gmail.com>
 
 EXPOSE 80
 VOLUME /mnt/log
