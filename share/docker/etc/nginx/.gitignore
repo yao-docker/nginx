@@ -2,5 +2,6 @@
 !.gitignore
 
 !nginx.conf
+!conf.d/
 !sites-available/
 !sites-enabled/
