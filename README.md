@@ -29,3 +29,7 @@ VOLUME
 * `/mnt/_`
 
     实现自 [yao-docker/base](https://github.com/yao-docker/base#volume)。
+
+运行
+
+docker run -v [宿主机目录路径]:/mnt/log -p [宿主机端口]:[docker 容器端口] REPOSITORY:TAG
